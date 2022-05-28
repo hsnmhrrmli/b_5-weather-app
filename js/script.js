@@ -1,9 +1,14 @@
 var menuBtn = document.querySelector('#menu-btn');
 var navbar = document.querySelector('.header .flex .navbar');
+// var submit = document.querySelector('.btn')
+// var box = document.querySelectorAll("input")
+
+//  zort=()=>{
+//   box.value==""
+// }
+// submit.addEventListener("submit", zort)
 
 
-
-object.onsubmit = function(){myScript}
 
 
 menuBtn.onclick = () =>{
