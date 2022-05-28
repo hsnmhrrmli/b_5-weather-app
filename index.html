@@ -318,10 +318,10 @@
             <span>your name</span>
             <input type="text" required placeholder="enter your full name" maxlength="50" name="name" class="box">
             <span>your email</span>
-            <input type="email" required placeholder="enter your valie email" maxlength="50" name="email" class="box">
+            <input type="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"  placeholder="enter your valie email" maxlength="50" name="email" class="box">
             <span>your number</span>
-            <input type="number" required placeholder="enter your valie number" max="9999999999" min="0" name="number"
-               class="box" onkeypress="if(this.value.length == 10) return false;">
+            <input type="number" required placeholder="enter your valid number" max="999999999999" min="0" name="number"
+               class="box" onkeypress="if(this.value.length == 12) return false;">
             <span>select course</span>
             <select name="couses" class="box" required>
                <option value="" disabled selected>select the course --</option>
@@ -335,14 +335,7 @@
                <option value="data analysis">data analysis</option>
                <option value="artificial intelligence">artificial intelligence</option>
             </select>
-            <span>select gender</span>
-            <div class="radio">
-               <input type="radio" name="gender" value="male" id="male">
-               <label for="male">male</label>
-               <input type="radio" name="gender" value="female" id="female">
-               <label for="female">female</label>
-            </div>
-            <input type="submit" value="send message" class="btn" name="send">
+                        <input type="submit" value="send message" class="btn" name="send">
          </form>
 
       </div>
@@ -356,14 +349,14 @@
       <section>
 
          <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="https://www.facebook.com/profile.php?id=100043601013765" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-linkedin"></a>
-            <a href="#" class="fab fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/h%C9%99s%C9%99n-m%C9%99h%C9%99rr%C9%99mli-0982241b4/" class="fab fa-linkedin"></a>
+            <a href="https://www.instagram.com/hsnmhrrmli/" class="fab fa-instagram"></a>
             <a href="#" class="fab fa-youtube"></a>
          </div>
 
-         <div class="credit">&copy; copyright @ 2022 by <span>mr. web designer</span> | all rights reserved!</div>
+         <div class="credit">copyright @ 2022 by <span>mr. hsnmhrrmli</span> | all rights reserved!</div>
 
       </section>
 
